@@ -1,0 +1,29 @@
+.printpage {
+  width: 150vh;
+  height: 150vh;
+  margin-top: 80vh;
+  display: flex;
+  flex-direction: column;
+  contain: content;
+  overflow-y: auto;
+  background-color: #f4f4f4;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+#row1 {
+  margin-top: 40px;
+  display: flex;
+}
+.row2 {
+  margin-top: 40px;
+  align-items: flex-start;
+}
+#row3 {
+  margin-top: 40px;
+  justify-content: center;
+}
+#row4 {
+  margin-top: 60px;
+  display: flex;
+  justify-content: flex-end;
+}
